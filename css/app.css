@@ -1,0 +1,28 @@
+#logo{
+	display: block;
+	margin: auto;
+	width: 80px;
+}
+#vidlist{
+	cursor: pointer;
+}
+#vidlist img{
+	margin: 8px;
+	padding: 3px;
+	border: 1 solid #ccc;
+}
+#vidlist h3{
+	margin-left: 10px;	
+}
+#showvideo {
+	width: 100%;
+	margin: 15px 0;
+}
+.ui-popup-container {	
+	top: 160px !important;
+	left: 50% !important;
+	margin-left: -144px;
+}
+.ui-field-contain>label~[class*=ui-], .ui-field-contain .ui-controlgroup-controls {
+	float: right !important;
+}
